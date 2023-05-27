@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "name": "a",
+      "price": 5,
+      "address": {
+        "city": "cg",
+        "zip": "g"
+      },
+      "id": 1
+    },
+    {
+      "name": "a",
+      "price": 5,
+      "address": {
+        "city": "cg",
+        "zip": "g"
+      },
+      "id": 2
+    },
+    {
+      "name": "a",
+      "price": 5,
+      "address": {
+        "city": "cg",
+        "zip": "g"
+      },
+      "id": 3
+    },
+    {
+      "name": "a",
+      "price": 5,
+      "address": {
+        "city": "cg",
+        "zip": "g"
+      },
+      "id": 4
+    }
+  ]
+}

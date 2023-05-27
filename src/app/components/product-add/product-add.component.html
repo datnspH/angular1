@@ -1,0 +1,15 @@
+<form [formGroup]="productForm" (ngSubmit)="onHandleSubmit()">
+    <h2>Address</h2>
+    <label for="name">name: </label>
+    <input id="name" type="text" formControlName="name">
+    <label for="price">price: </label>
+    <input id="price" type="number" formControlName="price">
+  <div formGroupName="address">
+    <label for="city">City: </label>
+    <input id="city" type="text" formControlName="city">
+    <label for="zip">Zip Code: </label>
+    <input id="zip" type="text" formControlName="zip">
+  </div>
+  <a><button type="submit" [disabled]="!productForm.valid">submit</button>
+  </a>
+</form>    

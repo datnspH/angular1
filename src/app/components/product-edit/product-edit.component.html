@@ -1,0 +1,11 @@
+<form [formGroup]="editForm" (ngSubmit)="onupdate()">
+    <label for="">name</label>
+    <input type="text" formControlName="name" name="" id="">
+    <input type="number" formControlName="price" name="" id="">
+  <div formGroupName="address">
+    <input type="text" formControlName="city" name="" id="">
+    <input type="text" formControlName="zip" name="" id="">
+  </div>
+  <button type="submit">submit</button>
+
+</form>
